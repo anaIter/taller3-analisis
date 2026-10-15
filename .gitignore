@@ -34,3 +34,7 @@ __pycache__/
 # Los archivos de datos de 1.000.000 pesan ~9 MB c/u; se regeneran con DataGenerator (semilla 42).
 # Si el repositorio debe incluirlos, elimine la siguiente linea:
 data/*_1000000.txt
+
+.idea/
+*.iml
+out/
