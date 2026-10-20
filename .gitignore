@@ -38,3 +38,4 @@ data/*_1000000.txt
 .idea/
 *.iml
 out/
+.venv/
