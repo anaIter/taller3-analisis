@@ -3,13 +3,12 @@ Algoritmos de ordenamiento del Punto 1 (version Python).
 Misma implementacion que Sorts.java: todos ordenan una lista de enteros IN SITU
 (el resultado queda en la misma lista) en orden ascendente.
 
-Referencias (implementaciones estandar; citar en el informe la pagina consultada):
+Referencias (implementaciones estandar):
   - Insertion Sort, Merge Sort, Heap Sort, Radix Sort y Bucket Sort: GeeksforGeeks.
   - Dual-Pivot QuickSort: esquema de Yaroslavskiy (GeeksforGeeks "Dual pivot Quicksort"),
     con los pivotes tomados SIEMPRE del primer y del ultimo elemento del subarreglo.
 
-Para la tabla de complejidad teorica (mejor / promedio / peor, estable, in-place)
-ver el comentario inicial de Sorts.java.
+
 """
 import math
 

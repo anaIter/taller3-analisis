@@ -3,7 +3,7 @@
  * Todos ordenan un int[] en orden ascendente, in situ desde el punto de vista de la API
  * (el resultado queda en el mismo arreglo recibido).
  *
- * Referencias (implementaciones estandar; citar en el informe la pagina consultada):
+ * Referencias (implementaciones estandar):
  *  - Insertion Sort, Merge Sort, Heap Sort, Radix Sort y Bucket Sort: GeeksforGeeks.
  *  - Dual-Pivot QuickSort: esquema de Yaroslavskiy (GeeksforGeeks "Dual pivot Quicksort"),
  *    con los pivotes tomados SIEMPRE del primer y del ultimo elemento del subarreglo.

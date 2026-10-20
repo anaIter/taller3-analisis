@@ -1,0 +1,7 @@
+algorithm,start_ns_per_search,center_ns_per_search,end_ns_per_search
+LinearSearch,351.06,20674113.86,41941985.18
+BinarySearch,1528.98,1631.18,2360.90
+TernarySearch,3086.36,2316.18,1993.30
+JumpSearch,258.80,86821.12,318040.90
+InterpolationSearch,330.18,1465.74,442.56
+ExponentialSearch,110.22,2963.68,5010.08
