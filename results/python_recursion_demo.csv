@@ -1,0 +1,3 @@
+algorithm,language,input,n,rep1_ns,rep2_ns,rep3_ns,rep4_ns,rep5_ns,mean_ns,std_ns,status,note
+DualPivotQuickSort,Python,asc,1000,58476000,41903200,39945700,51369000,61217500,50582280.0,9545953.5,measured,
+DualPivotQuickSort,Python,asc,10000,,,,,,5058228000.0,,estimated,RecursionError (limite de recursion = 1000); tiempo estimado por extrapolacion

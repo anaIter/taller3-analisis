@@ -171,7 +171,15 @@ def main():
     ap.add_argument("--stack", type=int, default=512, help="MB de pila del hilo")
     args = ap.parse_args()
 
-    threading.stack_size(args.stack * 1024 * 1024)
+    # Algunos sistemas (p. ej. Windows) rechazan pilas muy grandes: se prueba con la mitad hasta que se acepte.
+    mb = args.stack
+    while mb >= 1:
+        try:
+            threading.stack_size(mb * 1024 * 1024)
+            break
+        except ValueError:
+            mb //= 2
+    print(f"Pila del hilo: {mb} MB (solicitado: {args.stack} MB)")
     t = threading.Thread(target=run, args=(args,))
     t.start()
     t.join()
