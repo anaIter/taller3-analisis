@@ -1,0 +1,7 @@
+language,best_sort,key_scenario,T_sort_ns,t_lin_ns,t_bin_ns,k_star,k_min
+Java,RadixSort,mixed,79744820.0,256254.6,148.1,311.37,312
+Java,RadixSort,center,79744820.0,179467.9,31.4,444.42,445
+Java,RadixSort,end,79744820.0,287313.0,31.8,277.58,278
+Python,DualPivotQuickSort,mixed,4699294420.0,31019451.6,3726.7,151.51,152
+Python,DualPivotQuickSort,center,4699294420.0,20674113.9,1631.2,227.32,228
+Python,DualPivotQuickSort,end,4699294420.0,41941985.2,2360.9,112.05,113

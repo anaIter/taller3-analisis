@@ -39,3 +39,6 @@ data/*_1000000.txt
 *.iml
 out/
 .venv/
+__pycache__/
+*.class
+data/*_1000000.txt
